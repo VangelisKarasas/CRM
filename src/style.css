@@ -1,0 +1,153 @@
+.App{
+    height: 100vh;
+    display: flex;
+    align-items:center;
+    text-align: center;
+    
+    
+}
+
+
+.Client{
+    top: 50%;
+    left: 50%;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+
+        .client{
+            flex-direction:column;
+            align-items:center;
+            gap: 5px;
+            justify-content: center;
+        }
+    }
+
+h1 {
+    margin-bottom: 80px;
+    
+}
+
+.Update {
+    position: absolute;
+    top: 62%;
+    background-color: #0a0a23;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.Update:hover {
+    background-color: #526c53;
+    color: white;
+}
+
+.body {
+    text-align: center;
+}
+
+.Delete {
+    position: absolute;
+    top: 64%;
+    background-color: #2a575f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+}
+
+.Delete:hover {
+    background-color: #526c53;
+    color: white;
+}
+
+.addClient {
+    position: absolute;
+    bottom: 28%;
+    background-color: #2a575f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;
+    width: 10%;
+}
+
+.addClient:hover {
+    background-color: #526c53;
+    color: white;
+}
+
+
+.addButton {
+    background-color: #2a575f;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    transition-duration: 0.4s;}
+
+.addButton:hover{
+    background-color: #526c53;
+        color: white;
+}
+
+.UpdateButton {
+    background-color: #2a575f;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        transition-duration: 0.4s;
+}
+
+.addButton:hover{
+    background-color: #526c53;
+        color: white;
+}
+
+.form{
+    display: inline-block
+}
+
+.NavBar {
+    width: 285px;
+    background-color: #2a575f;
+    height: 100%;
+}
+
+.NavBarList{
+    height: auto;
+    padding: 0;
+    width: 100%;
+}
+
+.NavBarList .row{
+    display:flex;
+    width: 100%;
+    height:50px;
+    flex-direction: row ;
+    margin:0%;
+    justify-content: center;
+    align-items: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.NavBarList .row:hover {
+        cursor:pointer;
+        background-color: #526c53;
+}
+
+.row #icon{
+    flex:30%;
+    display:grid;
+    place-items: center;
+    color: rgba(255, 107, 28, 0.722);
+}
+
+.row #title{
+    flex:70%;
+    color:aliceblue;
+}
+
+.NavBarList #active{
+    background-color: #526c53;
+}
